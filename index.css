@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #0d192c;
+}
+
+.charcho {
+  background-color: #15263f;
+  width: 350px;
+  border-radius: 15px;
+
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sur1 {
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.axali-divi:hover .hover_sur {
+  display: flex;
+  cursor: pointer;
+}
+
+.hover_sur {
+  width: 352px;
+  height: 352px;
+  background: #00fff8;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border-radius: 8px;
+  position: absolute;
+  display: none;
+  top: 97px;
+  left: 645px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: "Outfit", sans-serif;
+}
+h1:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+p {
+  color: #8bacd9;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "Outfit", sans-serif;
+}
+
+.icon-etherium {
+  width: 11px;
+}
+
+.etherium {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #00fff8;
+}
+
+.icon-clock {
+  width: 13.33 px;
+}
+
+.clock-p {
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.crypto {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  color: #2e405a;
+}
+
+.bolo-div {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.image-avatar {
+  width: 33px;
+  padding-right: 16px;
+}
+
+.p-avtori {
+  color: #8bacd9;
+  padding-right: 5px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.p-avtoris-saxeli {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.p-avtoris-saxeli:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
