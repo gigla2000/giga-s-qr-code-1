@@ -4,6 +4,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: #0d192c;
+  position: relative;
 }
 
 .charcho {
@@ -20,29 +21,38 @@ body {
 }
 
 .sur1 {
-  border-radius: 8px;
   width: 100%;
-  cursor: pointer;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 8px;
 }
 
+.tvali {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.axali-divi {
+  position: relative;
+}
+.axali-divi:hover .tvali {
+  display: inline;
+}
+.hover_sur {
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
 .axali-divi:hover .hover_sur {
   display: flex;
-  cursor: pointer;
-}
-
-.hover_sur {
-  width: 352px;
-  height: 352px;
-  background: #00fff8;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-  border-radius: 8px;
-  position: absolute;
-  display: none;
-  top: 31px;
-  left: 478px;
-  align-items: center;
-  justify-content: center;
+  background: rgba(0, 255, 248, 0.2);
+  height: 350px;
+  width: 100%;
 }
 
 h1 {
